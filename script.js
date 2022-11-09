@@ -10,10 +10,10 @@ window.addEventListener('scroll',()=>{
     let $y = document.querySelector(".y");
     let $z = document.querySelector(".z");
 
-    $z.style.clipPath = `inset(${scrolled * 1000}% 0 0 0)`;
-    $y.style.clipPath = `inset(${(scrolled-0.2) * 1000}% 0 0 0)`;
-    $h.style.clipPath = `inset(${(scrolled-0.3) * 1000}% 0 0 0)`;
-    $x.style.clipPath = `inset(${(scrolled-0.4) * 1000}% 0 0 0)`;
+    $z.style.clipPath = `inset(${scrolled * 400}% 0 0 0)`;
+    $y.style.clipPath = `inset(${(scrolled-0.25) * 400}% 0 0 0)`;
+    $h.style.clipPath = `inset(${(scrolled-0.5) * 400}% 0 0 0)`;
+    $x.style.clipPath = `inset(${(scrolled-0.75) * 400}% 0 0 0)`;
 
        
 })
